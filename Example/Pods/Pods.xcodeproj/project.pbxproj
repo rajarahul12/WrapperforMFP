@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04037E5B4BB020C81215F83B181A1708 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F206D3EA8D57E233F4ECAD43D773EF /* ReplaceMe.swift */; };
 		2B48236911B90CB373D0A074C3D4625C /* WrapperforMFP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4029DB1C53D03DC8FFE642011ED10BC5 /* WrapperforMFP-dummy.m */; };
+		4E7583C321EEF42E00480ACC /* WrapperforMFP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7583C221EEF42E00480ACC /* WrapperforMFP.swift */; };
 		4E9F7A6AB39984610EE2C745B8ABDE64 /* WrapperforMFP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04C7C7E8A9C84392F4668DECF34FD3F5 /* WrapperforMFP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		643928C73BC80701392A3CC83E2299D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		8848B7F22E1D17A9C231E27AF013645B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
@@ -31,21 +31,21 @@
 		061299E0F660E1FE9A2953A385A9F90D /* WrapperforMFP-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WrapperforMFP-prefix.pch"; sourceTree = "<group>"; };
 		233CFF937039AC15ACADB0E2BDF0992E /* Pods-WrapperforMFP_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WrapperforMFP_Tests-umbrella.h"; sourceTree = "<group>"; };
 		265D8301935A921DCD79064004F7D491 /* Pods-WrapperforMFP_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WrapperforMFP_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		27675DE5EAB6B57378C558ABDC063825 /* Pods_WrapperforMFP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WrapperforMFP_Tests.framework; path = "Pods-WrapperforMFP_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27675DE5EAB6B57378C558ABDC063825 /* Pods_WrapperforMFP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WrapperforMFP_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7A20DA38CA349E35F5CDF8178AB749 /* Pods-WrapperforMFP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WrapperforMFP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DC330F088A220FF5541B9ECE24CBD4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		313DB55D8CE44494A174CAB02C8A73F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A202284FA3911ACF56484DD627B0A83 /* WrapperforMFP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WrapperforMFP.modulemap; sourceTree = "<group>"; };
 		4029DB1C53D03DC8FFE642011ED10BC5 /* WrapperforMFP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WrapperforMFP-dummy.m"; sourceTree = "<group>"; };
 		4CBC3F4D48DB537B41A391143A5B07A9 /* Pods-WrapperforMFP_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WrapperforMFP_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F1E9826E8D26AB1AB3AD2FACB459930 /* WrapperforMFP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WrapperforMFP.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4E7583C221EEF42E00480ACC /* WrapperforMFP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperforMFP.swift; sourceTree = "<group>"; };
+		5F1E9826E8D26AB1AB3AD2FACB459930 /* WrapperforMFP.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WrapperforMFP.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7D1438BC9BFE1936E2CE0E7EDF7F238E /* Pods-WrapperforMFP_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WrapperforMFP_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		8A060B710070E45C73D2E2347458D23E /* WrapperforMFP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WrapperforMFP.framework; path = WrapperforMFP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A060B710070E45C73D2E2347458D23E /* WrapperforMFP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WrapperforMFP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E2A8B67A26A41E2FE1797639535C23 /* Pods-WrapperforMFP_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WrapperforMFP_Tests-resources.sh"; sourceTree = "<group>"; };
-		98F206D3EA8D57E233F4ECAD43D773EF /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WrapperforMFP/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		A3C8CCD912103FF9DF12887968ACF0B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A5BC49391CCBE51A11B4178DFCE65C30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A3C8CCD912103FF9DF12887968ACF0B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A5BC49391CCBE51A11B4178DFCE65C30 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CD8933B1A8FA86FA336D89D41C12175C /* Pods-WrapperforMFP_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WrapperforMFP_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D87C1786BCF510D7D9118A8F095A3A4B /* WrapperforMFP.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WrapperforMFP.xcconfig; sourceTree = "<group>"; };
@@ -170,9 +170,9 @@
 		C23238925FBC17F45B28DFCD7FB21FA8 /* WrapperforMFP */ = {
 			isa = PBXGroup;
 			children = (
-				98F206D3EA8D57E233F4ECAD43D773EF /* ReplaceMe.swift */,
 				BF1969917290E38BECA370E645463A6A /* Pod */,
 				0376976E42032F145289A8CA11B4CB37 /* Support Files */,
+				4E7583C221EEF42E00480ACC /* WrapperforMFP.swift */,
 			);
 			name = WrapperforMFP;
 			path = ../..;
@@ -245,6 +245,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					1B2DF24123992473F460C8E3A16593C6 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E442E417D8BAB8D5300206244CA12131 /* Pods-WrapperforMFP_Tests-dummy.m in Sources */,
+				4E7583C321EEF42E00480ACC /* WrapperforMFP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +300,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04037E5B4BB020C81215F83B181A1708 /* ReplaceMe.swift in Sources */,
 				2B48236911B90CB373D0A074C3D4625C /* WrapperforMFP-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +321,7 @@
 			baseConfigurationReference = 2D7A20DA38CA349E35F5CDF8178AB749 /* Pods-WrapperforMFP_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -338,6 +344,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -465,8 +473,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -508,6 +515,7 @@
 			baseConfigurationReference = CD8933B1A8FA86FA336D89D41C12175C /* Pods-WrapperforMFP_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -530,6 +538,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
