@@ -16,11 +16,11 @@
 		607FACE51AFB9204008FA782 /* WrapperforMFP_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WrapperforMFP_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		780737EA35858B7923DDC116 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		780737EA35858B7923DDC116 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		7B4A048AA7040BC60D6DAC68 /* Pods-WrapperforMFP_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WrapperforMFP_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WrapperforMFP_Tests/Pods-WrapperforMFP_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABCBD8698307B9A8A0A151B3 /* Pods_WrapperforMFP_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WrapperforMFP_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB39A9C96F4D1035892C30F8 /* WrapperforMFP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WrapperforMFP.podspec; path = ../WrapperforMFP.podspec; sourceTree = "<group>"; };
-		F47E3137F01834995DFE21F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CB39A9C96F4D1035892C30F8 /* WrapperforMFP.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WrapperforMFP.podspec; path = ../WrapperforMFP.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F47E3137F01834995DFE21F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
